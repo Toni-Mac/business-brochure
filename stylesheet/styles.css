@@ -4,14 +4,14 @@ Error: Invalid CSS after "$body-font: ": expected expression (e.g. 1px, bold), w
         from line 7 of scss/styles.scss
 
 9: // Use Color functions to brighten and darken colors
-10: $brand-color-dark: darken($brand-color, 20);
-11: $brand-color-light: lighten($brand-color, 20);
+10: // $brand-color-dark: darken($brand-color, 20);
+11: // $brand-color-light: lighten($brand-color, 20);
 12: 
 13: // Fonts
 14: $body-font: ;
 15: $heading-font: ;
 16: // Typographic Defualts
-17: $line-height: 1.4;
+17: $line-height: ;
 18: 
 19: // Layout variables
 
@@ -74,4 +74,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$body-font: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 14 of scss/_variables.scss\A         from line 7 of scss/styles.scss\A \A 9: // Use Color functions to brighten and darken colors\A 10: $brand-color-dark: darken($brand-color, 20);\A 11: $brand-color-light: lighten($brand-color, 20);\A 12: \A 13: // Fonts\A 14: $body-font: ;\A 15: $heading-font: ;\A 16: // Typographic Defualts\A 17: $line-height: 1.4;\A 18: \A 19: // Layout variables"; }
+  content: "Error: Invalid CSS after \"$body-font: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 14 of scss/_variables.scss\A         from line 7 of scss/styles.scss\A \A 9: // Use Color functions to brighten and darken colors\A 10: // $brand-color-dark: darken($brand-color, 20);\A 11: // $brand-color-light: lighten($brand-color, 20);\A 12: \A 13: // Fonts\A 14: $body-font: ;\A 15: $heading-font: ;\A 16: // Typographic Defualts\A 17: $line-height: ;\A 18: \A 19: // Layout variables"; }
