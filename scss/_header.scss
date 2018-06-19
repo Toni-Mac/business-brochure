@@ -1,22 +1,31 @@
 /* Header Images */
 .image-header{
-    background-image: url('../images/header-image1.png');
+    background-image: url('../images/Asset 4.svg');
+    background-repeat: no-repeat;
     height: 725px;
     /* border-radius:  0 0 450px  50px; */
 }
-// .img-01{
-//     opacity: 0.3;
-//     margin-left: 375px;
-//     position: relative;
-// }
-// .img-02{
-//     position: absolute;
-//     top: 2%;
-//     left: 47%;
-// }
+.img-01{
+    opacity: 0.3;
+    margin-left: 420px;
+    position: relative;
+    top: -476px;
+}
+.img-02{
+    position: absolute;
+    top: 2%;
+    left: 47%;
+}
+
+.swoop{
+    position: absolute;
+    top: 61%;
+    left: 10%;
+    
+}
 
 // THIS IS THE PINK THAT PUSHES THE CURVE DOWN
 .filler-header-pink{
     background-color: #DC8282;
-    height: 475px;
+    height: 284px;
 }

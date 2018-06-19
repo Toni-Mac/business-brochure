@@ -1,10 +1,11 @@
 // Nav styles 
 
 nav{
-    background-color: yellow;
+    position: fixed;
     margin: 0;
     height: 45px;
     width: 100%;
+    z-index: 1;
 }
 nav ul{
     margin: 0;
@@ -13,14 +14,13 @@ nav ul{
     display: flex;
 }
 nav li{
-    background-color: lightblue;
     flex: 1;
     
 }
 nav a{
     line-height: 45px;
     text-decoration: none;
-    background-color: lightgrey;
+    background-color: white;
     display: block;
     text-align: center;
 }
