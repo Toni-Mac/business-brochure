@@ -1,5 +1,25 @@
 /* CSS Document */
 nav {
-  background-color: pink; }
+  background-color: yellow;
+  margin: 0;
+  height: 45px;
+  width: 100%; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; }
+
+nav li {
+  background-color: lightblue;
+  flex: 1; }
+
+nav a {
+  line-height: 45px;
+  text-decoration: none;
+  background-color: lightgrey;
+  display: block;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
