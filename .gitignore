@@ -100,3 +100,4 @@ styles/*.map
 *.swp
 *.vi
 *~
+scss/styles.scss
