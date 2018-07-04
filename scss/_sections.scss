@@ -1,12 +1,40 @@
 //Section main styles
 
 //Services
-/* Section one header */
-.section-01-head{
-    position: absolute;
-    text-align: right;
+    //center/flex services section content
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    //STYLE TOP HEAD/LIST
+    .services-tabs ul{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;  
+        margin: auto;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        line-height: 25px;
+    }
+    .services-tabs li{
+        flex: 1;  
+        border: 1px solid pink;
+    }
     
-}
+    .menu{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .menu-pic{
+        background-color: lightblue;
+        height: 250px;
+    }
 //Products
 //About
 //Gallery
