@@ -1,15 +1,19 @@
 //Section main styles
-
+.section{
+    height: 100vh;
+    border-bottom: 1px black solid;
+}
 //Services
     //center/flex services section content
     .services{
+        width: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     //STYLE TOP HEAD/LIST
-    .services-tabs ul{
+    .services-tabs{
         display: flex;
         justify-content: space-between;
         width: 80%;  
@@ -21,11 +25,13 @@
     }
     .services-tabs li{
         flex: 1;  
-        border: 1px solid pink;
+        background-color: pink;
+        border: 1px black solid;
+        margin: 20px;
     }
     
     .menu{
-        width: 80%;
+        width: 60%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -33,9 +39,15 @@
     }
     .menu-pic{
         background-color: lightblue;
-        height: 250px;
+        height: 200px;
+        margin: 0;
+        border: black 1px solid;
     }
 //Products
+.fleximage-and-productsection{
+    display: flex;
+    justify-content: space-between;
+}
 //About
 //Gallery
 //Contact
