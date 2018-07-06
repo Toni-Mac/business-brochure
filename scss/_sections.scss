@@ -62,7 +62,7 @@
     text-align: center;
 }
 .gallery-area{
-    background-color: pink;
+    background-color:$brand-color;
     line-height: 50px;
     display: flex;
     flex-direction: column;
@@ -73,9 +73,21 @@
 }
 
 //Contact
-
-
-
-
-
+.contact{
+    height: 80vh;
+    background-image: url('../images/images-placeholder-contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message{
+    text-align: center;
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: $brand-color;
+    width: 50%;
+    margin: auto;
+}
 
