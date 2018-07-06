@@ -6,7 +6,7 @@
 //Services
     //center/flex services section content
     .services{
-        width: 80px;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -31,17 +31,35 @@
     }
     
     .menu{
-        width: 60%;
+        width: 90%;
+        height: 100vh;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
     }
     .menu-pic{
-        background-color: lightblue;
-        height: 200px;
-        margin: 0;
+        margin: 10px;
         border: black 1px solid;
+        position: relative;
+    }
+    .menu-text{
+        position: absolute;
+        top: 30%;
+        left: 41%;
+        font-size: 1.5rem;
+    }
+    .prices{
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+    }
+    .menu-pic:hover .menu-text{
+        display: none;
+    }
+    .menu-pic:hover .prices{
+        display: block;
     }
 //Products
 //About
@@ -94,7 +112,9 @@ i {
 }
 
 //Contact
-
+.contact{
+    height: 80vh;
+}
 .message{
     text-align: center;
     font-size: 1.5rem;
