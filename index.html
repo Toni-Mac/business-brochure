@@ -139,33 +139,50 @@
                         name="contact-form"
                         class="contact-form"
                         id="form">
-                <label for="name">Name</label>
-                <input type="text"
-                        id="name"
-                        name="name">
+             <div class="info">           
+                <div class="col01">     
+                <label for="fname">First Name:</label>
+                    <input type="text"
+                        id="fname"
+                        name="fname">
                 <br>
-                <label for="email">Email</label>
+                <label for="lname">Last Name:</label>
+                    <input type="text"
+                        id="lname"
+                        name="lname">
+                </div> 
+                <br>
+                <div class="col02">
+                <label for="email">Your Email:</label>
                 <input type="text"
                         id="email"
                         name="email">
+                
                 <br>
-                <label for="phone">Phone</label>
-                <input type="text"
+                <label for="phone">Phone Number:</label> 
+                    <input type="text"
                         id="phone"
                         name="phone">
+                </div>
+            </div>
                 <br>
                 <label for="question">How would you like to be contacted?</label>
-                <input type="radio"
+                <div><input type="radio"
                         id="phone-call"
-                        name="phone-call">
-                <label for="phone-call">Phone</label>
-                <input type="radio"
+                        name="phone-call"
+                        class="radio"
+                        value="phone-call">
+                <label for="phone-call" class="quest-label">Phone</label>
+                    <input type="radio"
                         id="email-me"
-                        name="email-me">
-                <label for="email-me">Email</label>
+                        name="email-me"
+                        class="radio"
+                        value="email-me">
+                <label for="email-me" class="quest-label">Email</label></div>
                 <br>
-                <label for="select-box">Select Reason: </label>
+
                 <select name="reason" id="select-box">
+                    <option value="select">Select a reason...</option>
                     <option value="appointment">Appointment</option>
                     <option value="workshop">Workshop</option>
                     <option value="training">Training</option>
@@ -174,6 +191,7 @@
                 </select>
                 <br>
                 <textarea name="textarea" id="textarea">Enter comments here..</textarea>
+                <button class="submit-btn">Submit</button>
                 </form>
                   
         </div>
