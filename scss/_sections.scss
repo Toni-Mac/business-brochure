@@ -44,8 +44,35 @@
         border: black 1px solid;
     }
 //Products
+//DON'T TOUCH
+.fleximage-and-productsection img {
+    margin-top:$margin;
+    padding-right:$padding-right;
+    padding-left:$padding-left;
+    width:100%;
+
+   
+}
+
+.fleximage-and-productsection {
+    display:flex;
+    justify-content: space-between;
+}
+ 
+.circle {
+    background-color:red;
+
+}
+.product-list {
+    width:100%;
+}
+
+*/
+
 //About
+//DON'T TOUCH
 //Gallery
+
 .review-area{
     display: flex;
     margin-top: 10px;
