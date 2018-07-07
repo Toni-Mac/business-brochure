@@ -67,6 +67,7 @@
 .fleximage-and-productsection img {
     margin-top:$margin;
     padding-left:$padding-left;
+  
 
 }
 
@@ -90,12 +91,14 @@
     border-radius: $border-radius;
     height:130px;
     width:130px;
+    margin:0 auto;
 
 }
 
 .circle-01, .product-01 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 //About
