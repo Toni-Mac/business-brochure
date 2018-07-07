@@ -63,29 +63,40 @@
     }
 //Products
 //DON'T TOUCH
+
 .fleximage-and-productsection img {
     margin-top:$margin;
-    padding-right:$padding-right;
     padding-left:$padding-left;
-    width:100%;
 
-   
 }
 
 .fleximage-and-productsection {
     display:flex;
     justify-content: space-between;
-}
- 
-.circle {
-    background-color:red;
+
 
 }
 .product-list {
-    width:100%;
+    background-color: $product-background;
+
 }
 
+.product-list p {
+    padding:$padding-default;
+}
 
+.product-list .circle {
+    background-color:red;
+    border-radius: $border-radius;
+    height:130px;
+    width:130px;
+
+}
+
+.circle-01, .product-01 {
+    display: flex;
+    justify-content: space-between;
+}
 
 //About
 //DON'T TOUCH
