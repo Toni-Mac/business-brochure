@@ -1,16 +1,7 @@
 //Footer styles
 footer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: $brand-color;
+    justify-content: space-between;
+    border-top: 3px solid black;
 }
-address{
-    text-align: center;
-}
-.social-media{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
+

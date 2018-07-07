@@ -113,7 +113,6 @@
                         <div class="product-01">
                         <li>product1</li>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minima sit fugit, adipisci enim quasi eaque molestiae autem qui corporis eveniet odio molestias alias 
-\
                   </p>
                     </div>
                   <div class="circle circle-02"></div>
@@ -192,41 +191,42 @@
         </div>
         <!-- end of gallery -->
         <div class="section contact">
-            <h2 class="sectionhead section-05-head">Contact</h2>
-            
-            
-                <h4 class="message">Send us a message</h4>
+            <div class="contact-content">
                 <form action="Contact-Us"
                         method="post"
                         name="contact-form"
                         class="contact-form"
                         id="form">
-             <div class="info">           
+                <h4 class="message">Send us a message</h4>
+                <div class="info">           
                 <div class="col01">     
-                <label for="fname">First Name:</label>
                     <input type="text"
                         id="fname"
-                        name="fname">
+                        name="fname"
+                        placeholder="First Name">
                 <br>
-                <label for="lname">Last Name:</label>
+
                     <input type="text"
                         id="lname"
-                        name="lname">
+                        name="lname"
+                        placeholder="Last Name">
                 </div> 
                 <br>
                 <div class="col02">
-                <label for="email">Your Email:</label>
+
                 <input type="text"
                         id="email"
-                        name="email">
+                        name="email"
+                        placeholder="Email">
                 
                 <br>
-                <label for="phone">Phone Number:</label> 
+
                     <input type="text"
                         id="phone"
-                        name="phone">
+                        name="phone"
+                        placeholder="Phone">
                 </div>
-            </div>
+                </div>
                 <br>
                 <label for="question">How would you like to be contacted?</label>
                 <div><input type="radio"
@@ -252,32 +252,36 @@
                     <option value="application">Application</option>
                 </select>
                 <br>
+                <div class="chk-box">
+                    <input type="checkbox"
+                           name="subscribe"
+                           id="subscribe"
+                           value="subscribe"
+                           checked>
+                    <label for="subscribe">Subscribe</label>       
+                </div>
                 <textarea name="textarea" id="textarea">Enter comments here..</textarea>
                 <button class="submit-btn">Submit</button>
                 </form>
-                  
-        </div>
+                <!-- endof form -->    
+                <address>
+                    Kinks n' Kurls<br/>
+                    2354 Pacific Coast Highway<br/>
+                    California, USA<br/>
+                    +311-555-2368<br/>
+                    Email: <a href="#0">kinks_kurls@gmail.com</a><br/>
+                </address>
+  
+            </div>
         <!-- end of contact -->
     </div>
     <!-- end of the content wrapper -->
     <footer>
-        <address>
-            Kinks n' Kurls<br/>
-            2354 Pacific Coast Highway<br/>
-            California, USA<br/>
-            +311-555-2368<br/>
-            Email: <a href="#0">kinks_kurls@gmail.com</a><br/>
-        </address>
-        <br>
-        <div class="social-media">
-            <p>Social Media</p>
             <div class="icons">
               <a href="#0"><img src="#0" alt="Twitter" width="30" height="30"></a>
               <a href="#0"><img src="#0" alt="Facebook" width="30" height="30"></a>
               <a href="#0"><img src="#0" alt="Instagram" width="30" height="30"></a>
             </div>
-        </div>
-        <br>
         <p>&copy;  2018 Y.Stubbs & T.McIntire</p>
     </footer>
     </div>
