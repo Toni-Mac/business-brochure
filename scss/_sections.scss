@@ -30,17 +30,19 @@
     }
     
     .menu{
-        width: 90%;
-        height: 100vh;
+        width: 80%;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         justify-content: center;
     }
     .menu-pic{
         margin: 10px;
         border: black 1px solid;
         position: relative;
+        width: 350px;
+        height: 350px;
+        
     }
     .menu-text{
         position: absolute;
@@ -50,9 +52,14 @@
     }
     .prices{
         display: none;
-        position: absolute;
-        top: 25%;
-        left: 40%;
+        top: 50%;
+        left: 50%;
+        width: 250px;
+        height: 250px;
+        // position: absolute;
+        // top: 25%;
+        // left: 40%;
+        text-align: center;
     }
     .menu-pic:hover .menu-text{
         display: none;
@@ -127,6 +134,7 @@
     align-items: center;
 }
 .gallery-header{
+    width: 50%;
     text-align: center;
 }
 .img-gal{
@@ -171,6 +179,9 @@ form{
     background-color: $brand-color;
     border-radius: 25px;
     padding: 25px;
+    position: absolute;
+    top: 9%;
+    left: 10%;
     
 }
 
