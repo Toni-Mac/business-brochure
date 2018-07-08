@@ -30,7 +30,6 @@
     }
     
     .menu{
-        width: 80%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -40,8 +39,8 @@
         margin: 10px;
         border: black 1px solid;
         position: relative;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         
     }
     .menu-text{
@@ -170,6 +169,7 @@ i {
 }
 .message{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 form{
@@ -181,12 +181,28 @@ form{
     padding: 25px;
     position: absolute;
     top: 9%;
-    left: 10%;
-    
+    left: 0%;
+    width: 35%;
+    height: 75%;
 }
+label{
+    font-size: 1rem;
 
+}
+.question-radio{
+    margin-top: 10px;
+}
 .info{
     display: flex;
+    height: 266px;
+    margin: 10px;
+}
+form input[type="text"], form input[type="radio"]{
+    font-size: 1rem;
+}
+#select-box{
+    height: 50px;
+    font-size: 1rem;
 }
 select{
     width: 100%;
@@ -196,7 +212,7 @@ select{
 }
 #textarea{
     width: 100%;
-    height: 100px;
+    height: 250px;
 }
 address{
     font-size: 1.3rem;
@@ -207,7 +223,7 @@ address{
     padding: 15px;
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 36%;
 }
 
 //Button Styles
@@ -229,5 +245,11 @@ address{
 .submit-btn:hover {
     background: white; 
 }
-
+ .flower-girl{
+     position: absolute;
+     top: 0%;
+     left: 60%;
+     width: 500px;
+     height: 100vh;
+ }
 
