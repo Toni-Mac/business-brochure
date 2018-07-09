@@ -2,13 +2,19 @@
 .section{
     min-height: 100vh;
 }
-.sectionhead{
+.sectionhead {
     height: 80px;
     background-color: $body-banner-color;
     -webkit-border-radius: 177px 0px 160px 0px;
     border-radius: 177px 0px 160px 0px;
+    color:black;
+    text-align:center;
+    padding-top:20px;
+    font-size:33px;
+    font-weight:bold;
     
 }
+
 //Services
     //center/flex services section content
     .services{
