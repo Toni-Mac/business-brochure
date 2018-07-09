@@ -351,9 +351,6 @@ form{
     background-color: $brand-color;
     border-radius: 25px;
     padding: 25px;
-    position: absolute;
-    top: 9%;
-    left: 0%;
 }
 label{
     font-size: 1rem;
@@ -398,6 +395,12 @@ address{
 .email{
     color: black;
     text-decoration: none;
+}
+fieldset{
+    border: white 2px dashed;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
 //Button Styles
