@@ -220,19 +220,29 @@
                         name="contact-form"
                         class="contact-form"
                         id="form">
-                <h4 class="message">Send us a message</h4>
+                <!-- <h4 class="message">Send us a message</h4> -->
+                <address>
+                    Kinks n' Kurls<br/>
+                    2354 Pacific Coast Highway<br/>
+                    California, USA<br/>
+                    +311-555-2368<br/>
+                    <a href="#0" class="email">kinks_kurls@gmail.com</a><br/>
+                </address>
                 <div class="info">           
                 <div class="col01">     
                     <input type="text"
                         id="fname"
                         name="fname"
-                        placeholder="First Name">
+                        placeholder="First Name"
+                        class="info-boxes">
+                        
                 <br>
 
                     <input type="text"
                         id="lname"
                         name="lname"
-                        placeholder="Last Name">
+                        placeholder="Last Name"
+                        class="info-boxes">
                 </div> 
                 <br>
                 <div class="col02">
@@ -240,30 +250,34 @@
                 <input type="text"
                         id="email"
                         name="email"
-                        placeholder="Email">
+                        placeholder="Email"
+                        class="info-boxes">
                 
                 <br>
 
                     <input type="text"
                         id="phone"
                         name="phone"
-                        placeholder="Phone">
+                        placeholder="Phone"
+                        class="info-boxes">
                 </div>
                 </div>
+               
                 <br>
+                <div class="radio">
                 <label for="question" class="question-radio">How would you like to be contacted?</label>
-                <div><input type="radio"
+                <div class="radio-boxes"><input type="radio"
                         id="phone-call"
                         name="phone-call"
-                        class="radio"
                         value="phone-call">
                 <label for="phone-call" class="quest-label">Phone</label>
                     <input type="radio"
                         id="email-me"
                         name="email-me"
-                        class="radio"
+
                         value="email-me">
                 <label for="email-me" class="quest-label">Email</label></div>
+                </div>
                 <br>
 
                 <select name="reason" id="select-box">
@@ -287,13 +301,7 @@
                 <button class="submit-btn">Submit</button>
                 </form>
                 <!-- endof form -->    
-                <address>
-                    Kinks n' Kurls<br/>
-                    2354 Pacific Coast Highway<br/>
-                    California, USA<br/>
-                    +311-555-2368<br/>
-                    Email: <a href="#0">kinks_kurls@gmail.com</a><br/>
-                </address>
+                
                 <img src="./images/products1-REVISED.png" alt="Flower Girl" class="flower-girl">
   
             </div>
@@ -306,6 +314,7 @@
               <a href="#0"><img src="./images/facebook.png" alt="Facebook" width="30" height="30"></a>
               <a href="#0"><img src="./images/instagram-2.png" alt="Instagram" width="30" height="30"></a>
             </div>
+            
         <p>&copy;  2018 Y.Stubbs & T.McIntire</p>
     </footer>
     </div>
