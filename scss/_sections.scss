@@ -292,7 +292,7 @@ i {
     width: 30%;
 }
 .review:not(.one){
-    margin:0 auto;
+    margin-left: 10px;
 }
 .review p{
     text-align: center;
@@ -391,6 +391,7 @@ select{
 #textarea{
     width: 100%;
     height: 150px;
+    padding:10px;
 }
 .chk-box{
     margin: 10px;
