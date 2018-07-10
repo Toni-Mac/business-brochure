@@ -322,16 +322,12 @@ i {
 .gallery-header{
     width: 50%;
     text-align: center;
+    padding-top:20px;
    
 }
 
-.gallery h2 {
-    padding-top:20px;
-    font-weight: bold;
-}
-
-.galler p {
-    padding-top:10px;
+.gallery p {
+    padding-top:0;
 }
 .img-gal{
     margin: 20px;
@@ -381,10 +377,16 @@ form:not(.apply){
     background-color: $brand-color;
     border-radius: 25px;
     padding: 25px;
-}
-label{
-    font-size: 1rem;
 
+}
+label {
+    font-size: 1rem;
+    font-family: $body-font;
+
+}
+
+legend {
+    font-family: $body-font;
 }
 // .question-radio{
 //     font-size: 25px;
@@ -414,6 +416,7 @@ select{
     width: 100%;
     height: 150px;
     padding:10px;
+    font-family: $body-font;
 }
 .chk-box{
     margin: 10px;
@@ -430,10 +433,14 @@ address{
     text-decoration: none;
 }
 fieldset{
-    border: white 2px dashed;
+    border: white 1.5px dashed;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+}
+
+.appt input {
+    font-family: $body-font;
 }
 
 //Button Styles
@@ -443,8 +450,10 @@ fieldset{
     font-size: 20px; 
     line-height: 20px; 
     border-radius: 20px; 
-    font-family: Georgia, serif; 
-    font-weight: normal; 
+    font-family: $body-font;
+    font-weight: bold;
+    padding:5px;
+    width:100px;
     text-decoration: none; 
     outline: none;
     border:none;
@@ -459,6 +468,6 @@ fieldset{
 }
  .flower-girl{
      position: absolute;
-     top: 13%;
+     top: 17%;
      left: 41%;
  }
