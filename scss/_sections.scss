@@ -7,10 +7,16 @@
     border-radius: 177px 0px 160px 0px;
     color:black;
     text-align:center;
-    padding-top:20px;
-    font-size:33px;
-    font-weight:bold;
+    font-size:70px;
+    padding-top:5px;
+    font-family: $heading-font;
+    font-weight: normal;
     
+}
+
+.sectionhead section-04-head {
+    font-family: $heading-font;
+    font-weight: normal;
 }
 
 //Services
@@ -57,11 +63,13 @@
     }
     .menu-text{
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 0%;
-        font-size: 1.5rem;
+        font-size: 20px;
+        font-weight: bold;
         width: 100%;
         text-align: center;
+        font-family: $body-font;
     }
     .prices{
         display: none;
@@ -157,6 +165,7 @@
     list-style: none;
     font-size:25px;
     font-weight: bold;
+    font-family: $body-font;
     
 }
 
@@ -225,10 +234,11 @@ i {
 }
 
 .team-bubbles li {
-    font-size:20px;
-    font-weight:19px;
+    font-size:18px;
+    font-weight:bold;
     list-style: none;
     margin-top:10px;
+    font-family: $body-font;
 }
 
 .our-story {
@@ -242,6 +252,7 @@ i {
 .our-story h3 {
     font-size:$section-heading;
     text-align: center;
+    font-weight: bold;
 
 }
 
@@ -271,6 +282,7 @@ i {
     font-weight: bold;
     border-radius: 20px;
     background-color: $brand-color;
+    font-family: $body-font;
 
 }
 .join button:hover {
@@ -310,6 +322,16 @@ i {
 .gallery-header{
     width: 50%;
     text-align: center;
+   
+}
+
+.gallery h2 {
+    padding-top:20px;
+    font-weight: bold;
+}
+
+.galler p {
+    padding-top:10px;
 }
 .img-gal{
     margin: 20px;
@@ -398,8 +420,10 @@ select{
 }
 address{
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
+    font-family: $body-font;
+    font-weight: bold;
 }
 .email{
     color: black;

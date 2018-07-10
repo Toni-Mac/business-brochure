@@ -1,10 +1,30 @@
-$body-font: 'Montserrat', sans-serif; ;
-$heading-font: 'Varela Round', sans-serif;
+
+@font-face {
+    font-family: 'Rither';
+    src: url('../fonts/rither-webfont.woff');
+}
+
+$body-font: 'Montserrat', sans-serif; 
+$heading-font: 'Rither';
+$nav-font: 'Montserrat', sans-serif;
+
+
+//$heading-font: 'Varela Round', sans-serif;
 
 //font-size
-$section-heading:25px;
+$section-heading: 25px;
 
 p {
    font-family: $body-font;
+   font-size:15px;
 }
 
+h2, h3, h4 {
+    font-family: $body-font;
+}
+
+//font-family: 'Lato', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Roboto Slab', serif;
+//font-family: 'Source Serif Pro', serif;
+//font-family: 'Libre Baskerville', serif;

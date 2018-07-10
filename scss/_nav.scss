@@ -121,8 +121,13 @@ nav a {
     text-align: center;
     color:black;
     margin:-10px;
+    font-family: $nav-font;
 
 
+}
+
+nav a:hover {
+    color:$brand-color;
 }
 
 
