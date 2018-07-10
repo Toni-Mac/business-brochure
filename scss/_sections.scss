@@ -290,7 +290,9 @@ i {
     flex-direction: column;
     align-items: center;
     width: 30%;
-    margin: auto;
+}
+.review:not(.one){
+    margin-left: 10px;
 }
 .review p{
     text-align: center;
@@ -312,7 +314,10 @@ i {
 .img-gal{
     margin: 20px;
 }
-
+.gramclump{
+    display: flex;
+    
+}
 //Picture arrows
 i {
     border: solid black;

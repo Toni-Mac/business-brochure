@@ -1,0 +1,82 @@
+//Services Page
+
+@media (max-width:1200px){
+    //SERVICES --grid from 4col to 3col
+    .menu{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:1000px){
+    .content-wrapper{
+        width: 100%;
+    }
+    //HEADER IMGS --Scoot over
+    .img-01{
+        margin-left: 221px;
+        position: relative;
+        top: 104px;
+        left: -350px;
+    }
+    .img-02{
+        position: absolute;
+        top: 2%;
+        left: 7%;
+    }
+
+    //Gallery --flex reviews
+    .review-area{
+        display: block;
+        width: 320px;
+    }
+    .review{
+        width: 130%;
+    }
+    .gallery-area{
+        height: 1100px;
+        width: 515px;
+    }
+    .gramclump{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .responsive-gallery{
+        display: flex;
+        justify-content: space-between;
+    }
+    // .gallery-area{
+    //     display: block;
+    //     height: 1080px;
+    //     width: 500px;
+    // }
+    // .gallery{
+    //     display: flex;
+    //     flex-direction: row;
+    // }
+    // .flex-main-1000px{
+    //     display: flex;
+    // }
+    //SERVICES --grid from 3col to 2col
+    .menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media (max-width:700px){
+    .img-01{
+        display: none;
+    }
+    .img-02{
+        left: 0;
+
+    }
+    .contact{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    //SERVICES --grid from 2col to 1col
+    .menu{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
