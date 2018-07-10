@@ -347,7 +347,7 @@ i {
     font-weight: bold;
 }
 
-form{
+form:not(.apply){
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,9 +359,9 @@ label{
     font-size: 1rem;
 
 }
-.question-radio{
-    font-size: 25px;
-}
+// .question-radio{
+//     font-size: 25px;
+// }
 .info{
     display: flex;
     margin: 10px;
@@ -381,7 +381,7 @@ select{
 }
 .radio-boxes{
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 #textarea{
     width: 100%;
