@@ -1,5 +1,13 @@
 //Services Page
+@media (max-width:1340px){
+    .contact-content{
+        width:100%;
+    }
 
+    .flower-girl {
+        display: none;
+    }
+}
 @media (max-width:1200px){
     //SERVICES --grid from 4col to 3col
     .menu{
@@ -61,6 +69,77 @@
     }
 
 }
+
+@media only screen and (max-width: 960px) { 
+    .fleximage-and-productsection {
+        flex-direction: column;
+    }
+
+    .fleximage-and-productsection img {
+        width:100%;
+    }
+
+    .circle img {
+        width:100%;
+        height:auto;
+    }
+
+    .product-list {
+        text-align:center;
+    }
+
+    .product-list li, .product-list p {
+        text-align: center;
+        width:100%;
+        padding: 0 10px;
+    }
+
+    .product {
+        margin-top:10px;
+    }
+}
+
+@media only screen and (max-width: 810px) { 
+    .about-sec {
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .team-bubbles {
+        width:100%;
+
+    }
+
+    .team-bubbles img {
+       width:100%;
+    }
+
+    .team-bubbles li, .team-bubbles p {
+        text-align:center;
+        padding-bottom:10px;
+
+    }
+
+    .team-bubbles p {
+        padding-bottom:20px;
+    }
+
+    .join {
+        text-align:center;
+    }
+
+    .our-story p {
+        text-align:center;
+        padding:0 50px;
+        margin: 0 auto;
+        white-space: normal;
+        flex-wrap: wrap;
+
+    }
+}
+
 @media (max-width:700px){
     .img-01{
         display: none;
