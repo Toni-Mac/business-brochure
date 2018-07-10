@@ -1,7 +1,5 @@
 //Section main styles
-.section{
-    min-height: 100vh;
-}
+
 .sectionhead {
     height: 80px;
     background-color: $body-banner-color;
@@ -49,29 +47,35 @@
         justify-content: center;
     }
     .menu-pic{
-        margin: 10px;
-        border: black 1px solid;
+        background-image: url('../images/squarefram700x659.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
         width: 300px;
         height: 300px;
-        
+        display: flex;
     }
     .menu-text{
         position: absolute;
         top: 30%;
-        left: 41%;
+        left: 0%;
         font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
     }
     .prices{
         display: none;
-            top: 50%;
-            left: 50%;
-           margin:0 auto;
-           padding: 100px;
-        // position: absolute;
-        // top: 25%;
-        // left: 40%;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        top: -4%;
+        left: 26%;
+        margin:0 auto;
+        position: absolute;
         text-align: center;
+        width: 150px;
+        font-size: 15px;
+        
     }
     .menu-pic:hover .menu-text{
         display: none;
