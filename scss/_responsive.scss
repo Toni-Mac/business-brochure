@@ -130,6 +130,7 @@
     }
 }
 @media (max-width:1000px){
+    
     .img-02{
         display: none;
 
@@ -171,18 +172,7 @@
     .responsive-gallery{
         margin: auto;
     }
-    // .gallery-area{
-    //     display: block;
-    //     height: 1080px;
-    //     width: 500px;
-    // }
-    // .gallery{
-    //     display: flex;
-    //     flex-direction: row;
-    // }
-    // .flex-main-1000px{
-    //     display: flex;
-    // }
+   
     //SERVICES --grid from 3col to 2col
     .menu{
         grid-template-columns: repeat(2, 1fr);
