@@ -296,6 +296,7 @@ i {
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 131px;
 }
 .review{
     display: flex;
@@ -303,15 +304,15 @@ i {
     align-items: center;
     width: 30%;
 }
-.review:not(.one){
-    margin-left: 10px;
-}
+// .review:not(.one){
+//     margin-left: 10px;
+// }
 .review p{
     text-align: center;
 }
 .gallery-area{
     background-color:$brand-color;
-    height: 375px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,16 +323,18 @@ i {
 .gallery-header{
     width: 50%;
     text-align: center;
-    padding-top:20px;
+    // padding-top:20px;
    
 }
 
 .gallery p {
     padding-top:0;
-    width: 250px;
+    // width: 250px;
 }
 .img-gal{
-    margin: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
 }
 .gramclump{
     display: flex;

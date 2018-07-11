@@ -10,16 +10,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <!--
-                <button class="hamburger-menu">
-                    <span class="hamburger-menu-content" tabindex="-1">
+        
+                <!-- <button class="hamburger-menu">Menu
+                    <!-- <span class="hamburger-menu-content" tabindex="-1">
                         <span class="sr-only"></span>
                         <span class="bar"></span>
-                    </span>
-                </button>
-            -->
-         <nav>
-            <ul>
+                    </span> -->
+                <!-- </button> --> 
+         <nav>       
+          <button onclick="myFunction()" class="menu-hide">Menu</button> 
+            <ul class="menu-box">
                 <li><a href="#services"> Services</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#about">About</a></li>
@@ -30,8 +30,10 @@
     </nav>
         </nav>
         <div class="filler-header-pink">
-                <img src="./images/cutout-skai.png" alt="Skai" class="img-01">
-                <img src="./images/big-cutout-skai.png" alt="Skai-two" class="img-02">
+                <!-- <img src="./images/cutout-skai.png" alt="Skai" class="img-01"> -->
+                <picture><source srcset="./images/pink-cutout-skai.jpg" 
+                    media="(max-width:1000px)"><img src="./images/big-cutout-skai.png" alt="Skai-two" class="img-02"
+                    ></picture>
                 <!-- <img src="./images/flower-head.png" alt="Flowers" class="flowerdecor"> -->
                 <!-- <img src="./images/Asset 5.svg" alt="whitespace" class="whitespace">         -->
                 <div class="bighead">
@@ -97,7 +99,7 @@
                             <br>
                             <br>
                             <br>
-                        Micro/Tree $180 <br> Box Braids (SM-LG) $150-$180 <br> Kinky Twists $180 <br> Havana/Spring/ Nubian Twist $180 <br> Sew in $120 <br> Locs $100-450 <br>Cornrows $50 <br>Crochet Braids $130 <br> Kids $50
+                        Micro/Tree $180 <br> Box Braids (SM-LG) $150-$180 <br> Kinky Twists $180 <br> Sew in $120 <br> Locs $100-450 <br>Cornrows $50 <br>Crochet Braids $130 <br> Kids $50
                     </p>
                 </div>
                 <div class="menu-pic">
@@ -117,14 +119,12 @@
                             <br>
                             <br>
                             <br>
-                        Deep Condition $80 <br> Hair Mask $60 <br>Retouch Treatment $50 <br> Chemical Repair $45 <br> Dandruff Treatment $70 <br> Heat Damage Repair (3 sessions) $15 each
+                        Deep Condition $80 <br> Hair Mask $60 <br>Retouch Treatment $50 <br> Chemical Repair $45 <br> Dandruff Treatment $70
                     </p>
                 </div>
                 <div class="menu-pic">
                     <h4 class="menu-text">Spa</h4>
                     <p class="prices">
-                            <br>
-                            <br>
                             <br>
                             <br>
                             <br>
@@ -243,15 +243,15 @@
                 <div class="responsive-gallery">
                 <div class="review-area">
                 <div class="review one">
-                    <img src="./images/review-one.jpg" alt="Photo">
+                    <img src="./images/review-one.jpg" alt="Photo" class="rev-pic">
                     <p>"I love this salon. Why? They definetely are quick and affordable. They have amazing customer service and I ALWAYS feel welcomed. They have restored my hair and my hair is the healthiest it has ever been."</p>
                 </div>
                 <div class="review two">
-                    <img src="./images/review-two.jpg" alt="Photo">
+                    <img src="./images/review-two.jpg" alt="Photo" class="rev-pic">
                     <p>"My experience with Kinks n Kurls has been amazing. My natural hair journey  has been crazy and I was giving up on my hair. I booked a last minute appointment and walked out a new women."</p>
                 </div>
                 <div class="review three">
-                    <img src="./images/review-three.jpg" alt="Photo">
+                    <img src="./images/review-three.jpg" alt="Photo" class="rev-pic">
                     <p>"PLEASE PLEASE PLEASE visit this salon and have the ladies hook your hair up ! I have been going there for 13 years. I haven't had a bad hair day ever since!"</p>
                 </div>
                 </div>
@@ -265,9 +265,9 @@
                 <div class="gramclump">    
                 <div class="gram"><img src="./images/gram-img1.jpg" alt="Gallery Photos" class="img-gal"></div>
                 <div class="gram"><img src="./images/gram-img2.jpg" alt="Gallery Photos" class="img-gal"></div>
-                <div class="gram"><img src="./images/gram-img3.jpg" alt="Gallery Photos" class="img-gal"></div>
+                <div class="gram"><img src="./images/gram-img3.jpg" alt="Gallery Photos" class="img-gal "></div>
                 <div class="gram"><img src="./images/gram-img4.jpg" alt="Gallery Photos" class="img-gal"></div>
-                <div class="gram"><img src="./images/gram-img-5.jpg" alt="Gallery Photos" class="img-gal"></div>
+                <div class="gram"><img src="./images/gram-img-5.jpg" alt="Gallery Photos" class="img-gal gal-display"></div>
                     <!-- <p><i class="arrow right"></i></p> -->
                 </div>
                 </div>
@@ -404,6 +404,6 @@
             
         <p>&copy;  2018 Y.Stubbs & T.McIntire</p>
     </footer>
-    
+    <script src="./scripts/javascript.js"></script>
 </body>
 </html>
