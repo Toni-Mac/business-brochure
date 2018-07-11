@@ -60,6 +60,7 @@
         width: 300px;
         height: 300px;
         display: flex;
+        margin:0 auto;
     }
     .menu-text{
         position: absolute;
@@ -96,8 +97,8 @@
 //DON'T TOUCH
 
 .fleximage-and-productsection img {
-    width:55%;
-    height:50%;
+    width:100%;
+    height:100%;
     background-color: $brand-color;
  
 }
@@ -105,6 +106,7 @@
 .fleximage-and-productsection {
     display:flex;
     justify-content: space-between;
+    align-items: center;
  
 }
 
